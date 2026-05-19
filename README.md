@@ -89,16 +89,23 @@ php artisan serve
 ---
 
 ## 📁 Project Structure
+```
 apexflow/
-├── app/Http/Controllers/
-│   ├── WebsiteController.php       # Public website pages
-│   └── Admin/                      # All admin controllers
-├── resources/views/
-│   ├── layouts/                    # Shared layouts
-│   ├── website/                    # Public pages
-│   └── admin/                      # Admin pages
-├── database/migrations/            # All database tables
-└── routes/web.php                  # All routes
+├── app/
+│   └── Http/
+│       └── Controllers/
+│           ├── WebsiteController.php    # Public website pages
+│           └── Admin/                   # All admin controllers
+├── resources/
+│   └── views/
+│       ├── layouts/                     # Shared layouts
+│       ├── website/                     # Public pages
+│       └── admin/                       # Admin pages
+├── database/
+│   └── migrations/                      # All database tables
+└── routes/
+    └── web.php                          # All routes
+```
 
 ---
 
