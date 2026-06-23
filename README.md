@@ -12,16 +12,16 @@ Built as a freelance project for a real plumbing services business — covers bo
 
 **Public Website**
 
-![Homepage](screenshots/homepage.png)
-![Why Choose Apex Flow](screenshots/why-choose-us.png)
+<img src="screenshots/homepage.png" width="700"><br>
+<img src="screenshots/why-choose-us.png" width="700">
 
 **Admin Panel**
 
-![Admin login](screenshots/admin-login.png)
-![Admin dashboard](screenshots/admin-dashboard.png)
-![Attendance management](screenshots/attendance.png)
-![Payments management](screenshots/payments.png)
-![Site settings — edit content without touching code](screenshots/site-settings.png)
+<img src="screenshots/admin-login.png" width="700"><br>
+<img src="screenshots/admin-dashboard.png" width="700"><br>
+<img src="screenshots/attendance.png" width="700"><br>
+<img src="screenshots/payments.png" width="700"><br>
+<img src="screenshots/site-settings.png" width="700">
 
 ## 🌐 Website Features
 
