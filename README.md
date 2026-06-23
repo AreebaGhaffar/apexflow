@@ -1,57 +1,64 @@
 # Apex Flow Technical Services LLC
-### Plumbing Website & Workforce Management System
 
-![Laravel](https://img.shields.io/badge/Laravel-11-red?style=flat&logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8.2-blue?style=flat&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-Latest-orange?style=flat&logo=mysql)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38bdf8?style=flat&logo=tailwindcss)
+**Plumbing Website & Workforce Management System**
 
-A fully functional **plumbing company website** with a complete **admin dashboard** and **workforce management system** built with Laravel 11 and MySQL.
+`Laravel` `PHP` `MySQL` `TailwindCSS`
 
----
+A fully functional plumbing company website with a complete admin dashboard and workforce management system, built with Laravel 11 and MySQL.
+
+Built as a freelance project for a real plumbing services business — covers both the public-facing marketing website and an internal admin system for managing leads, employees, attendance, and payments.
+
+## Screenshots
+
+**Public Website**
+
+![Homepage](screenshots/homepage.png)
+![Why Choose Apex Flow](screenshots/why-choose-us.png)
+
+**Admin Panel**
+
+![Admin login](screenshots/admin-login.png)
+![Admin dashboard](screenshots/admin-dashboard.png)
+![Attendance management](screenshots/attendance.png)
+![Payments management](screenshots/payments.png)
+![Site settings — edit content without touching code](screenshots/site-settings.png)
 
 ## 🌐 Website Features
 
-- Modern clean responsive UI built with Tailwind CSS
+- Modern, clean, responsive UI built with Tailwind CSS
 - Home page with hero section, services, and CTA
-- Services page dynamically loaded from database
+- Services page dynamically loaded from the database
 - About Us page
 - Contact page with lead capture form
 - ☎️ Click-to-Call button on every page
 - 💬 WhatsApp floating button on every page
 - Fully mobile responsive
 
----
-
 ## 🔐 Admin Panel Features
 
 - Secure login system
 - **Site Settings** — edit all website content without touching code
 - **Customer Leads** — view and manage contact form submissions
-- **Services** — add, edit, delete services shown on website
+- **Services** — add, edit, delete services shown on the website
 - **Employees** — full CRUD for employee records
 - **Attendance** — mark daily attendance per employee
-- **Payments** — record salary, bonus, advance payments
-
----
+- **Payments** — record salary, bonus, and advance payments
 
 ## ⚙️ Tech Stack
 
 | Technology | Version |
-|------------|---------|
+|---|---|
 | PHP | 8.2 |
 | Laravel | 11 |
 | MySQL | Latest |
 | Tailwind CSS | 3 |
 | Node.js | 20+ |
 
----
-
 ## 🚀 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/apexflow.git
+git clone https://github.com/AreebaGhaffar/apexflow.git
 
 # Install PHP dependencies
 composer install
@@ -73,12 +80,10 @@ php artisan db:seed --class=SiteSettingsSeeder
 php artisan serve
 ```
 
----
-
 ## 📸 Pages
 
 | Page | Description |
-|------|-------------|
+|---|---|
 | `/` | Home page |
 | `/services` | All services |
 | `/about` | About us |
@@ -86,9 +91,8 @@ php artisan serve
 | `/login` | Admin login |
 | `/admin` | Admin dashboard |
 
----
-
 ## 📁 Project Structure
+
 ```
 apexflow/
 ├── app/
@@ -107,9 +111,7 @@ apexflow/
     └── web.php                          # All routes
 ```
 
----
-
 ## 👤 Author
 
-Built by **[Areeba Ghaffar]**
-- GitHub: [@AreebaGhaffar](https://github.com/AreebaGhaffar)
+Built by **Areeba Ghaffar**
+GitHub: [@AreebaGhaffar](https://github.com/AreebaGhaffar)
